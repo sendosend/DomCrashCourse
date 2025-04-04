@@ -37,3 +37,18 @@
 .delete:hover {
     background-color: darkred;
 }
+
+body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+th {
+    text-align: -webkit-match-parent;
+    text-align: match-parent;
+}
+
+#items li:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
